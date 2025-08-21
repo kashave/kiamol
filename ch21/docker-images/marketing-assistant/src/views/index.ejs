@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Marketing Assistant</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/fontawesome.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Header -->
+        <header class="hero-section text-center py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <i class="fas fa-brain hero-icon mb-4"></i>
+                        <h1 class="hero-title mb-3">AI-Powered Marketing Assistant</h1>
+                        <p class="hero-subtitle">Transform your product ideas into compelling marketing strategies with the power of artificial intelligence</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="container py-5">
+            <div class="row">
+                <!-- Input Section -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card input-card h-100">
+                        <div class="card-header">
+                            <h3 class="card-title mb-0">
+                                <i class="fas fa-edit me-2"></i>
+                                Describe Your Product
+                            </h3>
+                        </div>
+                        <div class="card-body">
+                            <form id="marketingForm">
+                                <div class="mb-3">
+                                    <label for="productDescription" class="form-label">Product or Service Description</label>
+                                    <textarea 
+                                        class="form-control" 
+                                        id="productDescription" 
+                                        rows="6" 
+                                        placeholder="Describe your product or service in detail. Include key features, benefits, and what makes it unique..."
+                                        required
+                                    ></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-generate w-100">
+                                    <i class="fas fa-magic me-2"></i>
+                                    Generate Marketing Strategy
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Results Section -->
+                <div class="col-lg-8">
+                    <!-- Loading State -->
+                    <div id="loadingState" class="d-none">
+                        <div class="card loading-card">
+                            <div class="card-body text-center py-5">
+                                <div class="spinner-border text-primary mb-3" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                                <p>AI is crafting your marketing strategy...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Results -->
+                    <div id="resultsSection" class="d-none">
+                        <!-- Marketing Copy -->
+                        <div class="card result-card mb-4">
+                            <div class="card-header">
+                                <h4 class="card-title mb-0">
+                                    <i class="fas fa-pen-fancy me-2 text-success"></i>
+                                    Marketing Copy
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <p id="marketingCopy" class="result-text"></p>
+                                <button class="btn btn-outline-secondary btn-sm copy-btn" data-target="marketingCopy">
+                                    <i class="fas fa-copy me-1"></i>Copy
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Visual Strategy -->
+                        <div class="card result-card mb-4">
+                            <div class="card-header">
+                                <h4 class="card-title mb-0">
+                                    <i class="fas fa-palette me-2 text-warning"></i>
+                                    Visual Strategy
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <p id="visualStrategy" class="result-text"></p>
+                                <button class="btn btn-outline-secondary btn-sm copy-btn" data-target="visualStrategy">
+                                    <i class="fas fa-copy me-1"></i>Copy
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Target Audience -->
+                        <div class="card result-card mb-4">
+                            <div class="card-header">
+                                <h4 class="card-title mb-0">
+                                    <i class="fas fa-users me-2 text-info"></i>
+                                    Target Audience
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <p id="targetAudience" class="result-text"></p>
+                                <button class="btn btn-outline-secondary btn-sm copy-btn" data-target="targetAudience">
+                                    <i class="fas fa-copy me-1"></i>Copy
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Empty State -->
+                    <div id="emptyState" class="card empty-state">
+                        <div class="card-body text-center py-5">
+                            <i class="fas fa-lightbulb empty-icon mb-3"></i>
+                            <h5>Ready to Create Amazing Marketing?</h5>
+                            <p class="text-muted">Enter your product description on the left to get started with AI-powered marketing insights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer mt-5 py-4">
+            <div class="container text-center">
+                <p class="mb-0 text-muted">
+                    <i class="fas fa-robot me-2"></i>
+                    Powered by AI Technology | KIAMOL Marketing Assistant
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

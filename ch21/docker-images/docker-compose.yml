@@ -15,3 +15,10 @@ services:
     image: kiamol/ch21-todo-api
     build:
       context: ./todo-api
+
+  marketing-assistant:
+    image: kiamol/marketing-assistant
+    build:
+      context: ./marketing-assistant
+    ports:
+      - "8090:3000"
