@@ -1,0 +1,25 @@
+/* Minimal FontAwesome Icons using Unicode */
+.fas:before, .fa:before { 
+    font-family: inherit;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fa-brain:before { content: "🧠"; }
+.fa-edit:before { content: "✏️"; }
+.fa-magic:before { content: "✨"; }
+.fa-pen-fancy:before { content: "🖊️"; }
+.fa-palette:before { content: "🎨"; }
+.fa-users:before { content: "👥"; }
+.fa-copy:before { content: "📋"; }
+.fa-check:before { content: "✅"; }
+.fa-lightbulb:before { content: "💡"; }
+.fa-robot:before { content: "🤖"; }
+.fa-check-circle:before { content: "✅"; }
+.fa-exclamation-triangle:before { content: "⚠️"; }
+.fa-exclamation-circle:before { content: "❗"; }
+.fa-info-circle:before { content: "ℹ️"; }
+
+/* Keep existing spacing classes */
+.me-1 { margin-right: 0.25rem; }
+.me-2 { margin-right: 0.5rem; }
