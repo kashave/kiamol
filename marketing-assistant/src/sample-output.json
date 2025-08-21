@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "data": {
+    "marketingCopy": {
+      "headline": "🚀 Transform Your World with Cutting-Edge Innovation",
+      "tagline": "Where Technology Meets Possibility",
+      "description": "Experience the future today with our revolutionary solution. Our advanced technology doesn't just meet your needs—it anticipates them. Join thousands of users who've already discovered the power of innovation at their fingertips.",
+      "callToAction": "Start Your Digital Revolution Today",
+      "keyBenefits": [
+        "⚡ Lightning-fast performance that saves you time",
+        "🔒 Enterprise-grade security you can trust",
+        "🎯 Intelligent features that adapt to your needs",
+        "🌐 Seamless integration with your existing workflow"
+      ]
+    },
+    "visualStrategy": {
+      "colorPalette": {
+        "primary": "#0066CC - Electric Blue",
+        "secondary": "#00D4AA - Bright Teal",
+        "accent": "#7B68EE - Modern Purple",
+        "background": "#F8FAFC - Clean White"
+      },
+      "imagery": [
+        "🖥️ Sleek device mockups showcasing the interface",
+        "⚡ Dynamic graphics showing speed and efficiency",
+        "🌐 Connected network visualizations",
+        "👥 Diverse users successfully using the product"
+      ],
+      "designStyle": "Modern minimalist with bold gradients",
+      "typography": "Clean, sans-serif fonts (Poppins, Inter, or Roboto)",
+      "mood": "Innovative, trustworthy, forward-thinking"
+    },
+    "targetAudience": {
+      "primary": {
+        "title": "Tech-Savvy Professionals",
+        "demographics": "Ages 25-45, College-educated, Urban/Suburban",
+        "psychographics": "Early adopters who value efficiency and innovation",
+        "painPoints": "Overwhelmed by inefficient tools, seeking streamlined solutions",
+        "goals": "Increase productivity, stay ahead of trends, work smarter"
+      },
+      "secondary": {
+        "title": "Digital Entrepreneurs",
+        "demographics": "Ages 28-50, Business owners, Global reach",
+        "psychographics": "Results-driven, technology-forward, growth-minded",
+        "painPoints": "Need scalable solutions, limited time for complex setups",
+        "goals": "Scale their business, automate processes, competitive advantage"
+      },
+      "channels": [
+        "🔍 Google Ads (search & display)",
+        "💼 LinkedIn targeted campaigns",
+        "📱 Tech blogs and industry publications",
+        "🎙️ Podcasts and webinar sponsorships"
+      ]
+    }
+  }
+}
